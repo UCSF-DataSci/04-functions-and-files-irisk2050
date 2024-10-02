@@ -19,20 +19,14 @@ import argparse
 
 def fibonacci_generator_to_limit(num_limit):
     # Do something
-    print(num_limit)
-    fibonacci_nums = []
-    if num_limit >= 2:
-          fibonacci_nums = [0, 1, 1]
-          small_fib = fibonacci_nums[-2]
-          big_fib = fibonacci_nums[-1]
-          while (small_fib + big_fib) < num_limit:
-                next_fib = small_fib + big_fib
-                fibonacci_nums.append(next_fib)
-                small_fib = big_fib
-                big_fib = next_fib
-
+    if num_limit == 0:
+        return []
     elif num_limit == 1:
-          fibonacci_nums.append(0)
+        return [0]
+    fibonacci_nums = [0, 1]
+    while (fibonacci_nums[-1] + fibonacci_nums[-2]) < num_limit:
+        fibonacci_nums.append(fibonacci_nums[-1] + fibonacci_nums[-2])
+    
     return fibonacci_nums
 
 if __name__ == "__main__":
