@@ -1,0 +1,6 @@
+Limit: 50000, max prime Fibonacci number: 28657
+Limit: 100, max prime Fibonacci number: 89
+Limit: 5000, max prime Fibonacci number: 1597
+Limit: 10, max prime Fibonacci number: 5
+Limit: 1, max prime Fibonacci number: None
+Limit: 500, max prime Fibonacci number: 233

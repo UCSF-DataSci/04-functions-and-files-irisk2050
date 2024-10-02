@@ -39,6 +39,8 @@ if __name__ == "__main__":
     num_limit = args.num_limit
     output_file = args.output_file
     
+    os.chdir("/Users/iriskim/Desktop/04-functions-and-files-irisk2050/") 
+
     if os.path.exists(output_file):
         print(f"The file '{output_file}' already exists and will be overwritten.")
     else:
