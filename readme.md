@@ -7,10 +7,10 @@ Create a program that generates Fibonacci numbers less than a limit and writes t
 0, 1, 1 (0+1), 2 (1+1), 3 (2+1), 5 (3+2), ...
 ```
 
-- Use a function to generate Fibonacci numbers as a list
-- Use `with` statements for file operations
-- Handle potential file I/O errors with `try`/`except`
-- Use command-line arguments (via `argparse`) to specify the upper limit and output file name
+- [x] Use a function to generate Fibonacci numbers as a list
+- [x] Use `with` statements for file operations
+- [x] Handle potential file I/O errors with `try`/`except`
+- [x] Use command-line arguments (via `argparse`) to specify the upper limit and output file name
  
 **Task: Generate the Fibonacci numbers less than 100 and write them to `fibonacci_100.txt`**
 
